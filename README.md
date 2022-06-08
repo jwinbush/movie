@@ -18,10 +18,11 @@ https://jagged-movie.web.app/
 
 # Preview
 
-!["Responsive React Movies App With API"](https://user-images.githubusercontent.com/67447840/136721197-be990f3a-cae2-4757-9eb7-c0796f4a3834.png "Responsive React Movies App With API")
+!["Home"](https://user-images.githubusercontent.com/102334772/172686217-efcb0ad7-666f-45b1-84d0-de3ace149993.png "Home")
+!["Trailer"](https://user-images.githubusercontent.com/102334772/172686339-27756519-c57b-496e-bb90-bf2bb6853ec7.png "Trailer")
+!["Movies"](https://user-images.githubusercontent.com/102334772/172686446-4a73ede5-c75c-4743-b941-a1b89a69557f.png "Movies")
+!["Search"](https://user-images.githubusercontent.com/102334772/172686434-0dd130a8-b85a-4da0-9821-6c387dc27c49.png "Search")
+!["Tv Series"](https://user-images.githubusercontent.com/102334772/172686437-aa1fe2f2-4333-4764-b6fb-c69f45eddcc0.png "TV Series")
+!["Footer"](https://user-images.githubusercontent.com/102334772/172686457-6bb6b97f-0193-4b2b-891a-343e7a2c3912.png "Footer")
+!["Mobile View"](https://user-images.githubusercontent.com/102334772/172686454-8a1a474c-7fd2-4954-81a6-21334ebe6c33.png "Mobile View")
 
-!["Responsive React Movies App With API"](https://user-images.githubusercontent.com/67447840/136721135-f64988cf-af31-495f-988c-c24ab10cbade.png "Responsive React Movies App With API")
-
-!["Responsive React Movies App With API"](https://user-images.githubusercontent.com/67447840/136721056-733be8a6-7af6-424b-a74e-eb65980a5464.png "Responsive React Movies App With API")
-
-!["Responsive React Movies App With API"](https://user-images.githubusercontent.com/67447840/136721118-cf5c59d2-31ff-4b06-86cb-262dd1b655fc.png "Responsive React Movies App With API")
