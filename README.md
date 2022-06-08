@@ -39,6 +39,6 @@ TV Series:
 Footer:
 !["Footer"](https://user-images.githubusercontent.com/102334772/172686457-6bb6b97f-0193-4b2b-891a-343e7a2c3912.png "Footer")
 
-Mobile:
+
 !["Mobile View"](https://user-images.githubusercontent.com/102334772/172686454-8a1a474c-7fd2-4954-81a6-21334ebe6c33.png "Mobile View")
 
