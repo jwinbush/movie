@@ -2,6 +2,10 @@
 
     Responsive React Movies App With API
 
+# npm
+
+    npm install
+    
 # Resource
 
     Google font: https://fonts.google.com/
