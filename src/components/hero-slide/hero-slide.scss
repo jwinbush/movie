@@ -54,7 +54,7 @@
                 font-weight: 500;
                 line-height: 1;
 
-                @include tablet {
+                @include mobile {
                     font-size: 4rem;
                 }
             }
@@ -64,7 +64,7 @@
             }
 
             .btns > * ~ * {
-                margin-left: 1rem;
+                margin-left: 2rem;
             }
 
             .btns,

@@ -23,14 +23,14 @@
         left: 0;
         bottom: 0;
         right: 0;
-        background-color: $black;
         opacity: 0;
-        transition: opacity 0.3s ease;
+        border: 2.5px solid white;
+        transition: 0.3s ease;
     }
 
     @media (hover: hover) and (pointer: fine) {
         &:hover::before {
-            opacity: 0.8;
+            opacity: 0.9;
         }
 
         &:hover .btn {

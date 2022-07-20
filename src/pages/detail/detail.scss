@@ -1,5 +1,9 @@
 @use "../../scss/" as *;
 
+.section__header h2 {
+font-size: 2.3rem;
+
+}
 .banner {
     height: 50vh;
     position: relative;
@@ -78,11 +82,10 @@
 
             &__item {
                 padding: 0.5rem 1.5rem;
-                border: 2px solid $white;
-                border-radius: $border-radius;
-                font-size: 0.8rem;
-                font-weight: 200;
-                background-color: $body-bg;
+                font-size: 0.7rem;
+                border: 1px solid white;
+                font-weight: 100;
+                background-color: rgb(13, 170, 222);
             }
         }
     }

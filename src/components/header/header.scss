@@ -9,13 +9,29 @@
 
     img {
         margin-right: 10px;
-        width: 50px;
+        width: 130px;
+        margin-top: 20px;
 
         @include mobile {
-            width: 30px;
+            width: 90px;
             margin-right: 0;
         }
     }
+}
+
+.logo i {
+    font-size: 2rem;
+}
+
+.logo img:hover {
+    width: 135px;
+    transition: 0.4s ease-in-out;
+
+    @include mobile {
+        width: 95px;
+        margin-right: 0;
+    }
+
 }
 
 .header {
@@ -29,7 +45,7 @@
 
     &.shrink {
         height: 65px;
-        background-color: rgba(32, 30, 22, 0.958);
+        background-color: rgba(0, 0, 0, 0.846);
     }
 
     &__wrap {
@@ -66,7 +82,7 @@
                 width: 0;
                 transition: width 0.5s ease;
                 height: 2px;
-                background-color: rgb(186, 161, 80);
+                background-color: rgb(13, 170, 222);
             }
 
             &.active::after,
