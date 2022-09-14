@@ -10,6 +10,7 @@ import MovieGrid from '../components/movie-grid/MovieGrid';
 const Catalog = () => {
 
     const { category } = useParams();
+   
 
     return (
         <>
@@ -21,8 +22,11 @@ const Catalog = () => {
                     <MovieGrid category={category}/>
                 </div>
             </div>
+            
+            
         </>
     );
 }
+
 
 export default Catalog;
