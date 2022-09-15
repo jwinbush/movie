@@ -1,26 +1,29 @@
 @use "../../scss/" as *;
-
 button {
     cursor: pointer;
     font-family: 'Bebas Neue', cursive;
 }
 
-.btn, .btn-outline{
-    border: 4px solid transparent;
-    background-color: #000000d2;
-    color: white;
-    padding: 0.5rem 1.8rem;
+.btn,
+.btn-outline {
+    // background: $yellow;
+    border: 1px solid rgb(13, 170, 222);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.49);
+    padding: 0.5rem 1.9rem;
     font-size: 1rem;
     font-weight: 200;
-    transition: box-shadow 0.3s ease;
     position: relative;
-}
-
-.btn:hover, .btn-outline:hover{
-    box-shadow: 0px 0px 7px 10px rgba(0, 0, 0, 0.244);
-    color: rgb(255, 255, 255);
-    background-color: rgb(13, 170, 222);
-
+    background: {
+        image: linear-gradient(45deg, rgb(13, 170, 222) 50%, transparent 50%);
+        position: 100%;
+        size: 300%;
+    }
+    transition: background 300ms ease-in-out;
+    &:hover {
+        background-position: 0;
+        transition: box-shadow 0.3s ease;
+    }
 }
 
 .btn.small {

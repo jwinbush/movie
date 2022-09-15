@@ -101,9 +101,7 @@ const HeroSlideItem = props => {
                         </OutlineButton>
                     </div>
                 </div>
-                <div className="hero-slide__item__content__poster">
-                    <img src={apiConfig.w500Image(item.poster_path)} alt="" />
-                </div>
+               
             </div>
         </div>
     )
@@ -119,7 +117,7 @@ const TrailerModal = props => {
     return (
         <Modal active={false} id={`modal_${item.id}`}>
             <ModalContent onClose={onClose}>
-                <iframe ref={iframeRef} width="100%" height="500px" title="trailer"></iframe>
+                <iframe ref={iframeRef} width="100%" height="600px" title="trailer"></iframe>
             </ModalContent>
         </Modal>
     )
