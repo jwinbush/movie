@@ -14,7 +14,7 @@
 
 # Live Demo
 
-https://jagged-movie.web.app/
+https://intelomovies.vercel.app/
 
 # Preview
 
