@@ -14,7 +14,7 @@
 
 # Live Demo
 
-https://intelomovies.vercel.app/
+https://intelo.vercel.app/
 
 # Preview
 
