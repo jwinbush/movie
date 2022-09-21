@@ -17,9 +17,8 @@
 https://intelo.vercel.app/
 
 # Preview
-
 Home:
-!["Home"](https://user-images.githubusercontent.com/102334772/172686217-efcb0ad7-666f-45b1-84d0-de3ace149993.png "Home")
+<img width="1440" alt="InteloHome" src="https://user-images.githubusercontent.com/102334772/191591008-8af6966a-62d9-4811-9f02-d06a4f6f8024.png">
 
 !["Trailer"](https://user-images.githubusercontent.com/102334772/172686339-27756519-c57b-496e-bb90-bf2bb6853ec7.png "Trailer")
 
