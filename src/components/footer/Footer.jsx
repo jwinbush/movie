@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="footer__content__logo">
                     <div className="logo">
                         <Link to="/"><img src={logo} alt="" /></Link>
-                        <i class='bx bx-play bx-tada' ></i>
+                        <i className='bx bx-play bx-tada' ></i>
                     </div>
                 </div>
                 <div className="footer__content__menus">

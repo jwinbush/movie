@@ -4,14 +4,11 @@
     font-size: 1.8rem;
     font-weight: 600;
     font-family: 'Bebas Neue', cursive;
-
-    @include flex(center, unset);
-
+    @include flex(center,
+    unset);
     img {
         margin-right: 10px;
         width: 130px;
-        margin-top: 20px;
-
         @include mobile {
             width: 90px;
             margin-right: 0;
@@ -26,12 +23,10 @@
 .logo img:hover {
     width: 135px;
     transition: 0.4s ease-in-out;
-
     @include mobile {
         width: 95px;
         margin-right: 0;
     }
-
 }
 
 .header {
@@ -42,37 +37,30 @@
     width: 100%;
     z-index: 99;
     transition: height 0.3s ease, background-color 0.3s ease;
-
     &.shrink {
         height: 65px;
         background-color: rgba(0, 0, 0, 0.846);
     }
-
     &__wrap {
-        @include flex(center, space-between);
+        @include flex(center,
+        space-between);
         height: 100%;
         padding: 0 2rem;
-
         @include mobile {
             justify-content: center;
         }
     }
-
     &__nav {
-        @include flex(center, unset);
-
-        & > * ~ * {
+        @include flex(center,
+        unset);
+        &>*~* {
             margin-left: 2rem;
         }
-
         li {
             padding: 5px 0;
             font-weight: 700;
             position: relative;
             font-size: 1.2rem;
-            font-family: 'Bebas Neue', cursive;
-
-
             &::after {
                 content: "";
                 position: absolute;
@@ -82,15 +70,13 @@
                 width: 0;
                 transition: width 0.5s ease;
                 height: 2px;
-                background-color: rgb(13, 170, 222);
+                background-color: dodgerblue;
             }
-
             &.active::after,
             &:hover::after {
                 width: 100%;
             }
         }
-
         @include mobile {
             position: fixed;
             bottom: 0;
@@ -100,10 +86,9 @@
             background-color: $body-bg;
             padding: 0 2rem;
             box-shadow: $box-shadow;
-
-            @include flex(center, space-between);
-
-            & > * ~ * {
+            @include flex(center,
+            space-between);
+            &>*~* {
                 margin-left: 0;
             }
         }

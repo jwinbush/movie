@@ -98,11 +98,11 @@ const HeroSlideItem = (props) => {
           <div className="btns">
             <Button onClick={() => hisrory.push("/movie/" + item.id)}>
               More Details
-               <i class="bx bx-info-circle"></i>
+               <i className="bx bx-info-circle"></i>
             </Button>
             <OutlineButton onClick={setModalActive}>
               Watch trailer
-              <i class="bx bx-play-circle"></i>
+              <i className="bx bx-play-circle"></i>
             </OutlineButton>
           </div>
         </div>

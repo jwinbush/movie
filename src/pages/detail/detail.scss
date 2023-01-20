@@ -1,16 +1,14 @@
 @use "../../scss/" as *;
-
 .section__header h2 {
-font-size: 2.3rem;
-
+    font-size: 2.3rem;
 }
+
 .banner {
     height: 50vh;
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     &::before {
         content: "";
         position: absolute;
@@ -20,7 +18,6 @@ font-size: 2.3rem;
         height: 100%;
         @include overlay();
     }
-
     &::after {
         content: "";
         position: absolute;
@@ -40,14 +37,11 @@ font-size: 2.3rem;
     margin-top: -200px;
     position: relative;
     padding: 0 2rem;
-
     &__poster {
         flex: 1;
-
         @include mobile {
             display: none;
         }
-
         &__img {
             background-position: center;
             background-size: cover;
@@ -55,37 +49,31 @@ font-size: 2.3rem;
             padding-top: 165%;
         }
     }
-
     &__info {
         width: 70%;
         padding-left: 2rem;
         position: relative;
-
         @include mobile {
             width: 100%;
             padding-left: 0;
         }
-
-        & > * {
+        &>* {
             margin-bottom: 2rem;
         }
-
         .title {
             font-size: 4rem;
             line-height: 1;
         }
-
         .genres {
-            & > * ~ * {
+            &>*~* {
                 margin-left: 0.5rem;
             }
-
             &__item {
                 padding: 0.5rem 1.5rem;
                 font-size: 0.7rem;
                 border: 1px solid white;
                 font-weight: 100;
-                background-color: rgb(13, 170, 222);
+                background-color: dodgerblue;
             }
         }
     }
@@ -95,14 +83,12 @@ font-size: 2.3rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
     gap: 10px;
-
     &__item {
         &__img {
             padding-top: 160px;
             background-size: cover;
             margin-bottom: 0.5rem;
         }
-
         &__name {
             font-size: 0.8rem;
         }
@@ -111,7 +97,6 @@ font-size: 2.3rem;
 
 .video {
     margin-bottom: 3rem;
-
     &__title {
         margin-bottom: 1.5rem;
     }
