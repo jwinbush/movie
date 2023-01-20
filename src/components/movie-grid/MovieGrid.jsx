@@ -116,14 +116,17 @@ const MovieSearch = props => {
     }, [keyword, goToSearch]);
 
     return (
-        <div className="movie-search">
+        <div className="search-box">
             <Input
                 type="text"
+                className="search-input"
                 placeholder="Enter keyword"
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
             />
-            <Button className="small" onClick={goToSearch}><i className='bx bx-search'/></Button>
+
+
+            <Button className="search-btn" onClick={goToSearch}><i className='bx bx-search'/></Button>
         </div>
     )
 }

@@ -1,7 +1,9 @@
 @use "../../scss/variables" as *;
 input {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 5px;
     font-size: 1rem;
     color: rgb(0, 0, 0);
+    width: 90%;
+    border: none;
 }
