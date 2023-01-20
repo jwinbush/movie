@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './header.scss';
-import logo from '../../assets/Intelo.png';
+import logo from '../../assets/CineFilms.png';
 
 const headerNav = [
     {

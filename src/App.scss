@@ -1,7 +1,5 @@
 @use "./scss/" as *;
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
-
 * {
     padding: 0;
     margin: 0;
@@ -9,17 +7,13 @@
     -webkit-tap-highlight-color: transparent;
     font-family: 'Bebas Neue', cursive;
     font-weight: 200;
-
-
 }
 
 html {
     font-size: 100%;
-
     @include tablet {
         font-size: 80%;
     }
-
     @include mobile {
         font-size: 60%;
     }
@@ -29,7 +23,6 @@ body {
     line-height: 1.5;
     background-color: $body-bg;
     color: $txt-color;
-
     @include mobile {
         margin-bottom: 3rem;
     }
@@ -42,7 +35,7 @@ a {
 
 @media (hover: hover) {
     a:hover {
-        color: rgb(13, 170, 222);
+        color: dodgerblue;
     }
 }
 
@@ -81,5 +74,6 @@ iframe {
 }
 
 .section__header {
-    @include flex(center, space-between);
+    @include flex(center,
+    space-between);
 }

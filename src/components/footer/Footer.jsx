@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.scss';
 import { Link } from 'react-router-dom';
 import bg from '../../assets/footerimg.webp';
-import logo from '../../assets/Intelo.png';
+import logo from '../../assets/CineFilms.png';
 
 
 const Footer = () => {
