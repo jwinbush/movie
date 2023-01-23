@@ -10,7 +10,7 @@ const headerNav = [
     },
     {
         display: 'Movies',
-        path: '/movie'
+        path: '/movie/#movie'
     },
     {
         display: 'TV Shows',
@@ -48,7 +48,7 @@ const Header = () => {
                 <ul className="header__nav">
                     {
                         headerNav.map((e, i) => (
-                            <li key={i} className={`${i === active ? 'active' : ''}`}>
+                            <li key={i} id='#' className={`${i === active ? 'active' : ''}`}>
                                 <Link to={e.path}>
                                     {e.display}
                                 </Link>

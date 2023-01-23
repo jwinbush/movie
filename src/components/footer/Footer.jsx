@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.scss';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import bg from '../../assets/footerimg.webp';
 // import logo from '../../assets/CineFilms.png';
 
@@ -32,12 +32,13 @@ const Footer = () => {
             <div className="col">
               <h6>Quick Links</h6>
               <ul className="footer-links">
-                <li>Home</li>
-                <li>Movies</li>
-                <li>TV Shows</li>
+                <Link to='/'><li>Home</li></Link>
+                <Link to='/movie'><li>Movies</li></Link>
+                <Link to='/tv'><li>TV Shows</li></Link>
                 
               </ul>
             </div>
+            <br/>
           </div>
         </div>
         <div className="container">
