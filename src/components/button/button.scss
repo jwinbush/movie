@@ -65,10 +65,18 @@ button {
     text-decoration: none;
     background: dodgerblue;
     padding: 12px;
+    position: relative;
     border-radius: 50%;
     float: right;
     color: white;
     transition: 0.4s ease;
+}
+
+@media only screen and (max-device-width: 400px) {
+    .search-btn {
+        padding: 10px;
+        top: -35px;
+    }
 }
 
 .search-box:hover>.search-input {
