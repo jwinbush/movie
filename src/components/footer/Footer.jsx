@@ -32,9 +32,9 @@ const Footer = () => {
             <div className="col">
               <h6>Quick Links</h6>
               <ul className="footer-links">
-                <Link to='/'><li>Home</li></Link>
-                <Link to='/movie'><li>Movies</li></Link>
-                <Link to='/tv'><li>TV Shows</li></Link>
+              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/movie'>Movies</Link></li>
+              <li><Link to='/tv'>TV Shows</Link></li>
                 
               </ul>
             </div>
