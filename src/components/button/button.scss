@@ -97,3 +97,10 @@ button {
 .search-input:focus+.search-btn {
     background: #fff;
 }
+
+.bx-x::before {
+    content: "\ebe9";
+    background: rgb(255, 255, 255);
+    color: dodgerblue;
+    border-radius: 12px;
+}

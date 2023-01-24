@@ -46,10 +46,10 @@ const Footer = () => {
             
             <div className="col-md-4 col-sm-6 col-xs-12">
               <ul className="social-icons">
-                <li><a className="email" href="mailto:jawonwinbush@gmail.com" rel='noreferrer' target={"_blank"}><i class="bx bx-mail-send"></i></a></li>
-                <li><a className="phone" href="tel:3176544324" rel='noreferrer' target={"_blank"}><i class="bx bx-phone"></i></a></li>
-                <li><a className="github" href="https://www.github.com/jwinbush/" rel='noreferrer' target={"_blank"}><i class="bx bxl-github" ></i></a></li>
-                <li><a className="linkedin" href="https://www.linkedin.com/in/jawonmwinbush/" rel='noreferrer' target={"_blank"}><i class="bx bxl-linkedin"></i></a></li>   
+                <li><a className="email" href="mailto:jawonwinbush@gmail.com" rel='noreferrer' target={"_blank"}><i className="bx bx-mail-send"></i></a></li>
+                <li><a className="phone" href="tel:3176544324" rel='noreferrer' target={"_blank"}><i className="bx bx-phone"></i></a></li>
+                <li><a className="github" href="https://www.github.com/jwinbush/" rel='noreferrer' target={"_blank"}><i className="bx bxl-github" ></i></a></li>
+                <li><a className="linkedin" href="https://www.linkedin.com/in/jawonmwinbush/" rel='noreferrer' target={"_blank"}><i className="bx bxl-linkedin"></i></a></li>   
               </ul>
               <p className="copyright-text">Developed by Jawon Winbush.
               </p>

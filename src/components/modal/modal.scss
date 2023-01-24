@@ -16,8 +16,9 @@
         visibility: visible;
     }
     &__content {
-        padding: 2rem;
-        background-color: $body-bg;
+        border-radius: 10px;
+        padding: 8px 0px 0px 0px;
+        background-color: rgba(30, 143, 255, 0.592);
         width: 50%;
         opacity: 0;
         transform: translateY(-250px);
