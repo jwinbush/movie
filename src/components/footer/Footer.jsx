@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-sm-12 col-md-6">
               <h6>About</h6>
-              <p className="text-justify">Cine Films is the world's most popular and authoritative source for information on movies, TV shows and celebrities. Products and services to help fans decide what to watch and where to watch it include: the IMDb website for desktop and mobile devices; apps for iOS and Android; and X-Ray on Prime Video.</p>
+              <p className="about">Cine Films is the world's most popular and authoritative source for information on movies, TV shows and celebrities. Products and services to help fans decide what to watch and where to watch it include: the IMDb website for desktop and mobile devices; apps for iOS and Android; and X-Ray on Prime Video.</p>
             </div>
 
   
